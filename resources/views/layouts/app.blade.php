@@ -14,10 +14,9 @@
   </head>
 
   <body>
-    <h1>
-      @yield('title')
-    </h1>
-
+    <header>
+      @include('layouts.header')
+    </header>
     <div class="container">
       @yield('content')
     </div>
